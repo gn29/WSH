@@ -1,7 +1,7 @@
 # 08-02-2019
 # Remote installation of CryptoPro Browser Plugin with PsExec Tools
 # You must be local admin on remote PC
-# @author 29@bk.ru
+# @author 29gena@gmail.com
 
 psexec \\PCNAME -u Domain\UserLogin -p PASSWORD cmd
 \\server\pathToExeFile\cadesplugin.exe -cadesargs "/quiet" -silent -norestart
